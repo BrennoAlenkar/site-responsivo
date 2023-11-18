@@ -21,7 +21,7 @@ body {
     align-items: center;
     position: fixed;
     width: 100%;
-    
+
 }
 
 .logo {
@@ -34,7 +34,7 @@ body {
     font-family: 'Lagoster', cursive;
     color: #180f4a;
     font-size: 33px;
-    
+
 
 }
 
@@ -180,6 +180,13 @@ footer {
 
 .rodape p {
     margin-top: 20px;
+}
+
+
+.rodape a {
+    text-decoration: none;
+    color: #fff;
+    text-decoration: underline;
 }
 
 .rodape a:hover {
