@@ -1,0 +1,119 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    background-color: #fff;
+    height: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    flex: 20%;
+    text-align: center;
+    margin-left: 10%;
+}
+
+.logo h1 {
+    font-family: 'Lagoster', sem serifa;
+    color: #180f4a;
+    font-size: 33px;
+
+}
+
+.menu {
+    flex: 70%;
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a {
+    counter-reset: #180f4a;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+}
+
+.menu a:hover {
+    color: #ff2978;
+    border-top: 3px solid #180f4a;
+
+}
+
+#button {
+    background-color: #180f4a;
+    padding: 10px 25px;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 10%;
+    margin-left: 5%;
+
+}
+
+#button:hover {
+    border: none;
+    background-color: #ff2978;
+
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.headline {
+    margin-left: 10%;
+    flex: 40%;
+}
+
+.headline h2 {
+    font-weight: 900;
+    font-size: 25px;
+    color: #180f4a;
+    padding: 0;
+    margin: 0;
+}
+
+.headline>p {
+    padding-top: 5px;
+
+}
+
+.button-contato {
+    display: inline-block;
+    background-color: #ff2978;
+    padding: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.button-contato:hover {
+    background-color: #180f4a;
+}
+
+.img {
+    margin-right: 10%;
+    flex: 40%;
+    text-align: center;
+}
+
+#imagem-completa {
+    max-width: 90%;
+}
