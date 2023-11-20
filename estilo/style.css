@@ -119,7 +119,7 @@ body {
 .img {
     margin-right: 10%;
     flex: 40%;
-    text-align: center;
+    align-items: center;
 }
 
 #imagem-completa {
